@@ -3,7 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import 'bootstrap'
+import VueSweetalert2 from 'vue-sweetalert2'
 
+Vue.use(VueSweetalert2)
+require('../node_modules/bootstrap/dist/css/bootstrap.css')
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
